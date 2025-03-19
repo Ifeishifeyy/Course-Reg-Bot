@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello",
+        "Good day",
+        "wagwan?",
+        "What's up?",
+        "Howdy",
+        "Hola",
+        "Hello there",
+        "whats good",
+        "I greet you",
+        "Yoooooooooooooooo",
+        "yoo",
+        "hey there",
+        "heyy",
+        "heyyo"
+
+      ],
+      "responses": [
+        "Welcome! I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program.",
+        "Greetings! I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program.",
+        "Hello! I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program.",
+        "Hi there! I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program.",
+        "Hey, I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "course_details",
+      "patterns": [
+        "Tell me about this course",
+        "What is this course about?",
+        "Can you explain this course?",
+        "What does this course cover?",
+        "Details about the course",
+        "Explain MAT412",
+          "Tell me about CSC211"
+      ],
+      "responses": [
+        "This course covers various topics related to...",
+        "In this course, you'll learn about...",
+        "The course focuses on key concepts such as...",
+        "You'll explore topics like... in this course.",
+        "The curriculum includes modules on...",
+        "This course is designed to teach you...",
+        "You'll gain knowledge in areas such as...",
+        "The course offers a comprehensive overview of...",
+        "By the end of this course, you'll understand...",
+        "This course dives into subjects like...",
+        "You'll study important aspects of... in this course.",
+        "The course is structured to cover...",
+        "This course is all about...",
+        "This course is perfect for you if you are interested in...",
+        "The course content includes..."
+      ]
+    },
+    {
+      "tag": "getstudentinfo",
+      "patterns": [
+        "I am in my freshman year",
+        "I am currently in 100-level",
+        "I am a first-year student",
+        "I'm in 100-level",
+        "I just started university",
+        "I am a freshman",
+        "I am in my first year of college"
+      ],
+      "responses": [
+        "What course are you studying?"
+      ]
+    },
+    {
+      "tag": "prerequisite_query",
+      "patterns": [
+        "What are the prerequisites for this course?",
+        "Do I need any prerequisites for this course?",
+        "What do I need to know before taking this course?",
+        "Are there any prerequisites?",
+        "What should I know before enrolling?",
+        "What are the requirements for this course?"
+      ],
+      "responses": [
+        "The prerequisites for this course include...",
+        "You need to have completed... before taking this course.",
+        "To take this course, you should know about...",
+        "Before you enroll in this course, you should be familiar with...",
+        "You must have completed... as a prerequisite."
+      ]
+    },
+    {
+      "tag": "elective_recommendation",
+      "patterns": [
+        "What courses should I take?",
+        "Recommend courses for me",
+        "Can you suggest some courses?",
+        "Which courses are best for me?",
+        "what electives should I pick?",
+        "I need help choosing courses",
+        "Help me pick courses",
+        "What are the recommended courses?"
+      ],
+      "responses": [
+        "Based on your program, I recommend...",
+        "Here are some courses that align with your interests:...",
+        "Based on your interests, I suggest...",
+        "These courses are tailored to your program requirements:...",
+        "I recommend taking courses like..."
+      ]
+    }
+  ]
+}
